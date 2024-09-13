@@ -222,3 +222,36 @@ font-weight: 700;
 .why-lease__item-text {
   text-align: left;
 }
+
+.how-does {
+  padding-bottom: 150px;
+}
+
+.how-does__inner {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.how-does__title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.how-does__list {
+padding: 50px 0 70px;
+counter-reset: myCounter;
+}
+
+.how-does__item {
+  list-style-type: none;
+}
+
+.how-does__item::before {
+counter-increment: myCounter;
+content: counter(myCounter);
+display:inline-block;
+background-color: #841f1f;
+font-size: 48px;
+font-weight: 700;
+}
