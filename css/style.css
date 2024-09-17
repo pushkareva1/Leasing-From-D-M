@@ -54,7 +54,7 @@ body {
 .header-main {
 background-color: transparent;
 position: absolute;
-z-index: 5;
+z-index: 10;
 left: 0;
 right: 0;
 } 
@@ -296,3 +296,26 @@ text-align: center;
   display: block;
   margin: 0 auto;
 }
+
+.important {
+  padding-bottom: 150px;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+
+.important__text {
+  max-width: 500px;
+  margin: 0  auto 50px;
+}
+
+.important__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.important__item-img {
+  margin-bottom: 20px;
+}
+
